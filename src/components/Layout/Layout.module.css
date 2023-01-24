@@ -1,0 +1,38 @@
+.header {
+  padding: 8px 0;
+  border-bottom: 1px solid black;
+
+  background: linear-gradient(0.5turn, #00070a, #575f70, #ffffff);
+}
+
+.main {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.link_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.navLink {
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLink.active {
+  background-color: rgba(102, 106, 102, 0.293);
+  color: white;
+}

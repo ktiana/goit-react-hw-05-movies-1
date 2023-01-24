@@ -1,0 +1,32 @@
+.actors {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 20px;
+}
+
+.actor_card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.actor_photo {
+  width: 200px;
+}
+.photo {
+  height: 300px;
+  object-fit: cover;
+}
+
+.actor_text {
+  padding: 5px;
+  padding-top: 10px;
+  width: 190px;
+}
+p {
+  margin: 0;
+  text-overflow: hidden;
+}
